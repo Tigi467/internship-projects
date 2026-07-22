@@ -1,0 +1,50 @@
+.app {
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+.app.dark {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+section {
+  margin-top: 30px;
+}
+
+.count {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+button {
+  font-size: 16px;
+  padding: 8px 16px;
+  margin: 6px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #888;
+  background-color: #f5f5f5;
+}
+
+.app.dark button {
+  background-color: #333;
+  color: #fff;
+  border-color: #666;
+}
+
+.parent {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border: 2px dashed #888;
+  border-radius: 8px;
+}
